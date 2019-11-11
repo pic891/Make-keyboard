@@ -1,0 +1,5 @@
+ホスト：Windows 10 Pro
+ゲスト：WSL1上にて環境構築(uname -aの実行結果は下記)
+"Linux pc8c-PC 4.4.0-18362-Microsoft #1-Microsoft Mon Mar 18 12:02:00 PST 2019 x86_64 x86_64 x86_64 GNU/Linux"
+QMK Toolbox：ver0.0.14(2019/11/12時点の最新版)
+
