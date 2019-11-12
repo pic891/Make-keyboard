@@ -1,0 +1,18 @@
+１．別のディレクトリに、`git clone https://github.com/qmk/qmk_firmware.git`にて、最新版をクローン
+２．WSL環境なので、`sh qmk_firmware/util/wsl_install.sh`を実行し、ビルド環境を構築
+３．環境構築後、`make miniaxe:default:all`を実行した結果、下記の通りとなった。
+
+`QMK Firmware 0.7.66
+WARNING:
+ Some git sub-modules are out of date or modified, please consider running:
+ make git-submodule
+ You can ignore this warning if you are not compiling any ChibiOS keyboards,
+ or if you have modified the ChibiOS libraries yourself.
+
+Making miniaxe with keymap default and target all
+
+tmk_core/protocol/lufa.mk:14: lib/lufa/LUFA/makefile: No such file or directory
+make[1]: *** No rule to make target 'lib/lufa/LUFA/makefile'.  Stop.
+Make finished with errors
+Makefile:555: recipe for target 'miniaxe:default:all' failed
+make: *** [miniaxe:default:all] Error 1`
